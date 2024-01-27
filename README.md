@@ -2,7 +2,7 @@
 **YouTube Scrollbar Remover** is a Userscripts ([GitHub](https://github.com/quoid/userscripts), [Mac App Store](https://apps.apple.com/us/app/userscripts/id1463298887)) file which removes YouTube's custom scrollbar and enables the macOS system scrollbar.
 
 ## Installation:
-1. Install Userscripts from the Mac App Store
+1. Install [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) from the Mac App Store
 2. Navigate to https://www.youtube.com
 3. Click the Userscripts toolbar icon: `</>`
 4. Choose either `Always Allow on This Website` or `Always Allow on Every Website...`

@@ -19,4 +19,5 @@
 
 ## Updating:
 1. Click the Userscripts toolbar icon: `</>`
-2. Click the Show Updates button
+2. Click the Show Updates button (cloud with down arrow)
+3. Click `Update` or `Update All`

@@ -16,3 +16,7 @@
     2. Select `Customize Toolbar...`
     3. Drag the Userscripts toolbar icon off the toolbar to remove
     4. Click `Done`
+
+## Updating:
+1. Click the Userscripts toolbar icon: `</>`
+2. Click the Show Updates button

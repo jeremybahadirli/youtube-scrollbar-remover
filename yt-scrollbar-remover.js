@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name        YouTube Scrollbar Remover
 // @match       *://*.youtube.com/*
-// @version 1.0
+// @version 1.1
 // @updateURL 
 // ==/UserScript==
 
+console.log("Update test");
 outside:
 for (const sheet of document.styleSheets) {
     try {

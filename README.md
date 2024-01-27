@@ -10,7 +10,7 @@
 6. Click `Open Extension Page`
 7. Click `+ > New Remote`
 8. Enter the script URL: https://raw.githubusercontent.com/jeremybahadirli/youtube-scrollbar-remover/main/yt-scrollbar-remover.js
-9. Click `Save` or type `Command+S`
+9. Click `Save` or type `⌘S`
 10. Optionally, remove the Userscripts toolbar icon:
     1. Right-click the Safari toolbar
     2. Select `Customize Toolbar...`

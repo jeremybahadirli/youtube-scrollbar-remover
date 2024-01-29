@@ -11,7 +11,7 @@ function removeWebkitScrollbarRule() {
             for (let i = 0; i < sheet.cssRules.length; i++) {
                 if (sheet.cssRules[i].selectorText === 'body::-webkit-scrollbar') {
                     sheet.deleteRule(i);
-                    resetBodyDisplay();
+                    refreshBody();
                     return;
                 }
             }
@@ -23,7 +23,7 @@ function removeWebkitScrollbarRule() {
     }
 }
 
-function resetBodyDisplay() {
+function refreshBody() {
     document.body.style.overflowY = 'hidden';
     setTimeout(() => document.body.style.overflowY = '', 0);
 }

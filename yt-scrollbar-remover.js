@@ -24,8 +24,9 @@ function removeWebkitScrollbarRule() {
 }
 
 function refreshBody() {
+    const overflowY = document.body.style.overflowY;
     document.body.style.overflowY = 'hidden';
-    setTimeout(() => document.body.style.overflowY = '', 0);
+    setTimeout(() => document.body.style.overflowY = overflowY, 0);
 }
 
 removeWebkitScrollbarRule();

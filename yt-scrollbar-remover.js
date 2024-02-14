@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        YouTube Scrollbar Remover
 // @match       *://*.youtube.com/*
-// @version     1.2
+// @version     1.3
 // @updateURL   https://raw.githubusercontent.com/jeremybahadirli/youtube-scrollbar-remover/main/yt-scrollbar-remover.js
 // ==/UserScript==
 

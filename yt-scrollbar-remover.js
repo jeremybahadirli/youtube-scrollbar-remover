@@ -10,10 +10,6 @@ for (const sheet of document.styleSheets) {
         for (let i = 0; i < sheet.cssRules.length; i++) {
             if (sheet.cssRules[i].selectorText === 'body::-webkit-scrollbar') {
                 sheet.deleteRule(i);
-                // Refresh body styling
-                const overflowY = document.body.style.overflowY;
-                document.body.style.overflowY = 'hidden';
-                setTimeout(() => document.body.style.overflowY = overflowY, 0);
             }
         }
     } catch (e) {
@@ -22,3 +18,8 @@ for (const sheet of document.styleSheets) {
         }
     }
 }
+
+// Refresh body styling
+const overflowY = document.body.style.overflowY;
+document.body.style.overflowY = 'hidden';
+setTimeout(() => document.body.style.overflowY = overflowY, 0);

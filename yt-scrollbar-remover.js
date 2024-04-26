@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        YouTube Scrollbar Remover
 // @match       *://*.youtube.com/*
-// @version     1.3
+// @version     1.4
 // @updateURL   https://raw.githubusercontent.com/jeremybahadirli/youtube-scrollbar-remover/main/yt-scrollbar-remover.js
 // ==/UserScript==
 
@@ -14,8 +14,6 @@ for (const sheet of document.styleSheets) {
                 const overflowY = document.body.style.overflowY;
                 document.body.style.overflowY = 'hidden';
                 setTimeout(() => document.body.style.overflowY = overflowY, 0);
-                
-                return;
             }
         }
     } catch (e) {
